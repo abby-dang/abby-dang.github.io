@@ -101,7 +101,7 @@ Error generating stack: `+e.message+`
         }
         .hero-meta a { text-decoration: underline; text-underline-offset: 3px; }
         .dot { margin: 0 0.5rem; opacity: 0.5; }
-      `})]})}function g({project:e,reverse:t}){return(0,f.jsxs)(`article`,{className:`project-card ${t?`reverse`:``}`,children:[(0,f.jsxs)(`div`,{className:`project-main`,children:[(0,f.jsx)(`div`,{className:`project-tag`,style:{background:e.tagColor},children:e.tag}),(0,f.jsx)(`h3`,{children:e.name}),(0,f.jsxs)(`p`,{className:`project-role`,children:[e.role,` · `,e.timeframe]}),(0,f.jsx)(`p`,{className:`project-blurb`,children:e.blurb}),(0,f.jsx)(`p`,{className:`project-status`,children:e.status}),(0,f.jsx)(`div`,{className:`project-stack`,children:e.stack.map(e=>(0,f.jsx)(`span`,{className:`pill`,children:e},e))}),(0,f.jsx)(`a`,{className:`project-link`,href:e.links.repo,target:`_blank`,rel:`noreferrer`,children:e.linkLabel||`View repo ↗`})]}),(0,f.jsx)(`div`,{className:`project-orb`,style:{background:e.accent},"aria-hidden":`true`}),(0,f.jsx)(`style`,{children:`
+      `})]})}function g({project:e,reverse:t}){return(0,f.jsxs)(`article`,{className:`project-card ${t?`reverse`:``}`,children:[(0,f.jsxs)(`div`,{className:`project-main`,children:[(0,f.jsx)(`div`,{className:`project-tag`,style:{background:e.tagColor},children:e.tag}),(0,f.jsx)(`h3`,{children:e.name}),(0,f.jsxs)(`p`,{className:`project-role`,children:[e.role,` · `,e.timeframe]}),(0,f.jsx)(`p`,{className:`project-blurb`,children:e.blurb}),(0,f.jsx)(`div`,{className:`project-stack`,children:e.stack.map(e=>(0,f.jsx)(`span`,{className:`pill`,children:e},e))}),(0,f.jsx)(`a`,{className:`project-link`,href:e.links.repo,target:`_blank`,rel:`noreferrer`,children:e.linkLabel||`View repo ↗`})]}),(0,f.jsx)(`div`,{className:`project-orb`,style:{background:e.accent},"aria-hidden":`true`}),(0,f.jsx)(`style`,{children:`
         .project-card {
           position: relative;
           background: var(--bg-alt);
@@ -137,14 +137,6 @@ Error generating stack: `+e.message+`
           line-height: 1.6;
           color: var(--ink-soft);
           margin: 0 0 1.3rem;
-        }
-        .project-status {
-          font-size: 0.9rem;
-          font-style: italic;
-          color: var(--ink-soft);
-          border-left: 3px solid var(--mint);
-          padding-left: 0.8rem;
-          margin: 0 0 1.4rem;
         }
         .project-stack {
           display: flex;
@@ -183,7 +175,7 @@ Error generating stack: `+e.message+`
         @media (max-width: 640px) {
           .project-card { padding: 1.75rem; border-radius: 20px; }
         }
-      `})]})}var _=[{id:`ntms`,name:`Color — Nail Technician Management System`,tag:`In development`,tagColor:`var(--yellow)`,role:`Full-Stack Developer`,timeframe:`Jan 2026 — Present`,blurb:`A salon management platform I'm building solo, backend-first. Owners will manage staff, services, and pricing; techs and clients get streamlined registration. Inspired directly by my own time working as a nail technician.`,stack:[`Python`,`Django`,`Supabase`,`PostgreSQL`,`Postman`,`REST APIs`],status:`Backend logic and API are actively in progress. Frontend (React) hasn't started yet — that's next.`,links:{repo:`https://github.com/abby-dang/Color`},linkLabel:`View repo ↗`,accent:`var(--yellow)`},{id:`bubble`,name:`Bubble — Social Media App`,tag:`Senior Capstone`,tagColor:`var(--pink)`,role:`Project Lead & Frontend Developer`,timeframe:`Jan 2025 — Dec 2025`,blurb:`A cross-platform React Native app for meeting people through shared-interest communities before ever meeting in person. I led a team of 5 through a full academic year, from concept to a fully working, demoable app.`,stack:[`React Native`,`JavaScript`,`REST APIs`,`Expo`,`C#`],status:`Demoed live via Expo, running on our own machine and shared with viewers by QR code — not deployed to app stores`,links:{repo:`https://my.eng.utah.edu/~u1217992/bubble/`},linkLabel:`View project site ↗`,accent:`var(--pink)`}];function v(){return(0,f.jsxs)(`section`,{id:`projects`,className:`projects`,children:[(0,f.jsxs)(`div`,{className:`section-head`,children:[(0,f.jsx)(`p`,{className:`eyebrow`,children:`Projects`}),(0,f.jsx)(`h2`,{children:`What I've been building`})]}),(0,f.jsx)(`div`,{className:`project-list`,children:_.map((e,t)=>(0,f.jsx)(g,{project:e,reverse:t%2==1},e.id))}),(0,f.jsx)(`style`,{children:`
+      `})]})}var _=[{id:`ntms`,name:`Color — Nail Technician Management System`,tag:`In development`,tagColor:`var(--yellow)`,role:`Full-Stack Developer`,timeframe:`Jan 2026 — Present`,blurb:`Inspired by my time working as a nail technician,Color is a salon management platform for nail technicians and owners. It is built to manage staff, clients, and business operations. I'm building it solo from scratch, architecting the database, the API, and eventually the frontend.`,stack:[`Python`,`Django`,`Supabase`,`PostgreSQL`,`Postman`,`REST APIs`],links:{repo:`https://github.com/abby-dang/Color`},linkLabel:`View repo ↗`,accent:`var(--yellow)`},{id:`bubble`,name:`Bubble — Social Media App`,tag:`Senior Capstone`,tagColor:`var(--pink)`,role:`Project Lead & Frontend Developer`,timeframe:`Jan 2025 — Dec 2025`,blurb:`Bubble is a cross-platform social media app that allows users to connect with others based on shared interests, with the goal of eventually encouraging those connections to meet in person. I led a team of 4 developers and 1 designer, designing the frontend architecture and implementing the mobile app in React Native.`,stack:[`React Native`,`JavaScript`,`REST APIs`,`Expo`,`C#`],links:{repo:`https://my.eng.utah.edu/~u1217992/bubble/`},linkLabel:`View project site ↗`,accent:`var(--pink)`}];function v(){return(0,f.jsxs)(`section`,{id:`projects`,className:`projects`,children:[(0,f.jsxs)(`div`,{className:`section-head`,children:[(0,f.jsx)(`p`,{className:`eyebrow`,children:`Projects`}),(0,f.jsx)(`h2`,{children:`What I've been building`})]}),(0,f.jsx)(`div`,{className:`project-list`,children:_.map((e,t)=>(0,f.jsx)(g,{project:e,reverse:t%2==1},e.id))}),(0,f.jsx)(`style`,{children:`
         .projects {
           position: relative;
           z-index: 1;

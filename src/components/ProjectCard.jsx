@@ -9,7 +9,6 @@ export default function ProjectCard({ project, reverse }) {
         <p className="project-role">{project.role} · {project.timeframe}</p>
         <p className="project-blurb">{project.blurb}</p>
 
-        <p className="project-status">{project.status}</p>
 
         <div className="project-stack">
           {project.stack.map((s) => (
@@ -60,14 +59,6 @@ export default function ProjectCard({ project, reverse }) {
           line-height: 1.6;
           color: var(--ink-soft);
           margin: 0 0 1.3rem;
-        }
-        .project-status {
-          font-size: 0.9rem;
-          font-style: italic;
-          color: var(--ink-soft);
-          border-left: 3px solid var(--mint);
-          padding-left: 0.8rem;
-          margin: 0 0 1.4rem;
         }
         .project-stack {
           display: flex;
