@@ -1,0 +1,49 @@
+:root {
+  --bg: #F7F3FA;
+  --bg-alt: #FDFBFF;
+  --ink: #1F2A44;
+  --ink-soft: #4A5468;
+  --pink: #FF6FA5;
+  --pink-deep: #E8447F;
+  --mint: #4FD1C5;
+  --mint-deep: #2FB3A6;
+  --yellow: #FFD166;
+  --card-radius: 28px;
+  --font-display: 'Baloo 2', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a { color: inherit; }
+
+:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+::selection {
+  background: var(--pink);
+  color: white;
+}
