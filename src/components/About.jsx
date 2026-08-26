@@ -36,30 +36,35 @@ export default function About() {
             <h2>A little more about me</h2>
             <p>
               I'm a full-stack and mobile developer who likes building things
-              end to end, and enjoys them being genuinely useful, not just
+              end to end, and enjoys them being useful and
               functional. Most of my work centers on React and React Native,
               paired with Python and Django on the backend, but I move across
-              whichever layer a project actually needs. I like picking up new
+              the project wherever I am needed. I like picking up new
               tools quickly when something calls for it: I learned Kotlin
-              from scratch to build an Android app, and I'm currently
-              deepening my TypeScript as I take on more frontend work.
+              to build an Android app, and I'm currently deepening my TypeScript 
+              as I take on more frontend work.
             </p>
             <p>
               I studied Computer Science at the University of Utah with an
               emphasis in Data Science, and served as President of Women in
               Computing during my final year. My interest in full-stack work
-              grew out of wanting to build complete, practical tools rather
-              than isolated pieces, which pushed me to get comfortable owning
-              a project from database schema to user interface.
+              grew out of wanting to build complete, practical tools where I own
+              and understand every part of the project, which pushed me to get 
+              comfortable developing from database schema to user interface.
             </p>
             <p>
-              I care about writing clean, well-organized code and turning a
-              messy, underspecified problem into something structured and
-              reliable. My current project is a salon management platform,
-              inspired directly by tools I wished existed during my own time
-              working as a nail technician, and I'm building it solo:
-              architecting the database, the API, and eventually the
-              frontend, all from scratch.
+              I care about writing clean, organized code that is easy to read and maintain, which allows for 
+              efficient collaboration between others.
+              I also enjoy creating with a customer-focused mindset so I can create a seamless experience for users.
+              My ideal work environment includes collaboration and communication with a diverse team as it introduces 
+              different perspectives and allows applications to reach more users.
+            </p>
+            <p>
+              My current project is a salon managment platform for nail technicians 
+              and owners and is inspired directly by tools I wish I had while I was 
+              working as a nail tech. I am building it solo from scratch, 
+              architecting the database, the API, and eventually the frontend. You 
+              can check out the repo <a href="https://github.com/abby-dang/Color" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
           </div>
         </div>
