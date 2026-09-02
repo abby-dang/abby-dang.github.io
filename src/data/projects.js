@@ -5,7 +5,7 @@ export const projects = [
     tag: 'In development',
     tagColor: 'var(--yellow)',
     role: 'Full-Stack Developer',
-    timeframe: 'Jan 2026 — Present',
+    timeframe: 'Mar 2026 — Present',
     blurb:
       "Inspired by my time working as a nail technician, Color is a salon management platform for nail technicians and owners. It is built to manage staff, clients, and business operations. I'm building it solo from scratch, architecting the database, the API, and eventually the frontend.",
     stack: ['Python', 'Django', 'Supabase', 'PostgreSQL', 'Postman', 'REST APIs'],
